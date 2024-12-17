@@ -6,7 +6,7 @@
 ## Equipe:
 ### Marx Victor
 ### Luanna Galliza
-### Stephany
+### Stephany Oliveira
 ### Cinthya Sousa
 ### Luis Raizer
 
