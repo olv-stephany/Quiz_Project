@@ -1,3 +1,4 @@
+// Respostas: itens corretos
 var correctAnswers = {
     q1: 'c', 
     q2: 'd', 
