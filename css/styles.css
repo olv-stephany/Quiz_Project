@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    background-image: url('https://wallpapers.com/images/hd/articuno-zapdos-and-moltres-in-blue-sky-zq7aog46cywdpd22.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.question {
+    margin-bottom: 20px;
+}
+.options {
+    list-style-type: none;
+    padding-left: 0;
+}
+.options li {
+    margin: 10px 0;
+}
+.feedback {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #e0ffe0;
+    color: #2f8f2f;
+    border-radius: 5px;
+}
+.incorrect {
+    background-color: #ffebeb;
+    color: #d9534f;
+}
+.correct {
+    background-color: #e0ffd0;
+    color: #28a745;
+}
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #45a049;
+}
+#gif {
+    text-align: center;
+    margin-top: 20px;
+}
+#score{
+    margin-top: 10px;
+    text-align: center;
+}
