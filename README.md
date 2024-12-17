@@ -1,8 +1,12 @@
 # Quiz pokémons lendários
+**Turma:** FSN3  
+**Professores:** Fernanda Nascimento e Gabriel Bezerra  
+
+---
 ## Equipe:
 ### Marx Victor
 ### Luanna Galliza
-### Stephany
+### Stephany Oliveira
 ### Cinthya Sousa
 ### Luis Raizer
 
