@@ -14,7 +14,7 @@ var correctAnswers = {
 
 var score = 0;
 
-function checkAnswer(selectedOption, correctAnswer, questionId) {
+function checkAnswer(selectedOption, correctAnswer, questionId) { //Feedback de respostas do usuário
     var feedbackElement = document.getElementById("feedback" + questionId);
     if (selectedOption.value === correctAnswer) {
         feedbackElement.textContent = "Resposta correta!";
