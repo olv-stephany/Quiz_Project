@@ -33,11 +33,11 @@ function showScore() { //Score do usuário
     document.getElementById("score").textContent = scoreText;
 
     // Desempenho do usuário
-    // Gif do Psyduck se for menor que 7 
-    if (score <= 7) {
+    // Gif do Psyduck se for menor que 6 (alteração valor de referência)
+    if (score <= 6) {
         document.getElementById("gif").innerHTML = '<img src="https://media2.giphy.com/media/5Yl9ZjaQI3waUpEBVO/200w.gif?cid=6c09b952j27xjkalhjvuy9ob4gkcj422mcq17odchm5znsq9&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Psyduck">';
     } else {
-    // Gif do Pikachu se for maior que 7
+    // Gif do Pikachu se for maior que 6
         document.getElementById("gif").innerHTML = '<img src="https://media.tenor.com/zdt3S5hNnHAAAAAM/pikachu-snivee.gif">';
     }
 }
