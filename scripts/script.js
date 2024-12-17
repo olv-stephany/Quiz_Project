@@ -27,7 +27,7 @@ function checkAnswer(selectedOption, correctAnswer, questionId) {
     feedbackElement.style.display = 'block';
 }
 
-function showScore() {
+function showScore() { //Score do usuário
     var totalQuestions = 10;
     var scoreText = "Você acertou " + score + " de " + totalQuestions + " perguntas.";
     document.getElementById("score").textContent = scoreText;
